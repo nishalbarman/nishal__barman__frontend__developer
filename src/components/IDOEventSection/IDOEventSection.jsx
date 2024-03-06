@@ -131,7 +131,7 @@ function IDOEventSection() {
                   <p className="font-shojumaru text-[4.8rem] text-samurai-red">
                     PRESALE 1
                   </p>
-                  <p className="font-zcool text-[4.8rem] text-[3.2rem]">
+                  <p className="font-zcool text-[3.2rem]">
                     1 Saviour = 0.657 USDT
                   </p>
                   <p className="font-zcool text-[2.4rem]">

@@ -1,3 +1,4 @@
+import FaqSection from "@/components/FAQSection/FaqSection";
 import IDOEventSection from "@/components/IDOEventSection/IDOEventSection";
 import IntroSection from "@/components/IntroductionSection/IntroSection";
 import RoadMapSection from "@/components/RoadMapSection/RoadMapSection";
@@ -12,6 +13,7 @@ export default function Home() {
       <IDOEventSection />
       <TokenomicsSections />
       <RoadMapSection />
+      <FaqSection />
     </main>
   );
 }
