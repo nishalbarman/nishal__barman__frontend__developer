@@ -1,5 +1,7 @@
-import IDOEventSection from "@/components/IDOEventSection.jsx/IDOEventSection";
+import IDOEventSection from "@/components/IDOEventSection/IDOEventSection";
 import IntroSection from "@/components/IntroductionSection/IntroSection";
+import RoadMapSection from "@/components/RoadMapSection/RoadMapSection";
+import TokenomicsSections from "@/components/TokenomicsSection/TokenomicsSection";
 import TopSection from "@/components/Top_Section/TopSection";
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
       <TopSection />
       <IntroSection />
       <IDOEventSection />
+      <TokenomicsSections />
+      <RoadMapSection />
     </main>
   );
 }

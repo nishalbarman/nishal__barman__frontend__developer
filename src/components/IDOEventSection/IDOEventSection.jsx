@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function IDOEventSection() {
@@ -16,7 +17,7 @@ function IDOEventSection() {
                 wealth and achieve success.
               </p>
               <div className="flex flex-col items-center justify-center">
-                <div className="bg-[#ED0137] flex justify-center items-center w-[244px] h-[70px] translate-y-[35px] rounded-[20px]">
+                <div className="bg-[#ED0137] flex justify-center items-center w-[24.4rem] h-[7rem] translate-y-[3.5rem] rounded-[2rem]">
                   <p className="font-shojumaru text-[1.8rem] text-white">
                     Token Info
                   </p>
@@ -67,9 +68,31 @@ function IDOEventSection() {
                 </div>
               </div>
 
-              <button className="bg-gradient-to-r from-smurai-grade-red to-smurai-grade-orange rounded-[16.21px] p-[10px_12px] text-[1.408rem] font-zcool mt-[4rem] h-[45px] w-[145px]">
+              <button className="bg-gradient-to-r from-smurai-grade-red to-smurai-grade-orange rounded-[16.21px] p-[10px_12px] text-[1.408rem] font-zcool mt-[3.5rem] h-[45px] w-[145px]">
                 Connect Wallet
               </button>
+              <p className="font-shojumaru text-[2.8rem] text-samurai-red text-center m-[3.5rem_0]">
+                Become an affiliate & Earn 7% as Commission!
+              </p>
+              <div className="flex justify-center items-center gap-[1.5rem] w-[95%]">
+                <div className="flex justify-between h-[5.5rem] w-[100%] border-[1px] border-[#C4110C] rounded-[20px] ">
+                  <input
+                    className="h-fill w-[100%] bg-transparent text-[1.6rem] placeholder:text-[#808181] text-white font-zcool  p-[0px_2.4rem] border-none outline-none"
+                    type="text"
+                    placeholder="Generate a unique referral link"
+                  />
+                  <button className="h-fill p-[0px_1.5rem] text-[1.5rem] font-zcool m-[2px] bg-samurai-red rounded-[2rem]">
+                    Generate
+                  </button>
+                </div>
+                <div className="cursor-pointer">
+                  <Image
+                    src={"/assets/icons/copy.svg"}
+                    width={25}
+                    height={30}
+                  />
+                </div>
+              </div>
             </div>
             <div className="basis-1/2">
               <div>
@@ -122,17 +145,17 @@ function IDOEventSection() {
                   </p>
                   <div className="flex flex-col gap-[1.9rem] w-[100%] mt-[2rem] p-[0px_8%]">
                     <input
-                      className="h-[6rem] bg-transparent rounded-[20px] text-[1.6rem] placeholder:text-[#808181] text-white font-zcool border-[2px] border-[#C4110C] p-[0px_2.4rem] outline-none"
+                      className="h-[6rem] bg-transparent rounded-[20px] text-[1.6rem] placeholder:text-[#808181] text-white font-zcool border-[1px] border-[#C4110C] p-[0px_2.4rem] outline-none"
                       type="text"
                       placeholder="Enter the amount (BNB)"
                     />
                     <input
-                      className="h-[6rem] bg-transparent rounded-[20px] text-[1.6rem] placeholder:text-[#808181] text-white font-zcool border-[2px] border-[#C4110C] p-[0px_2.4rem] outline-none"
+                      className="h-[6rem] bg-transparent rounded-[20px] text-[1.6rem] placeholder:text-[#808181] text-white font-zcool border-[1px] border-[#C4110C] p-[0px_2.4rem] outline-none"
                       type="text"
                       placeholder="Minimum Quantity to Buy"
                     />
                     <input
-                      className="h-[6rem] bg-transparent rounded-[20px] text-[1.6rem] placeholder:text-[#808181] text-white font-zcool border-[2px] border-[#C4110C] p-[0px_2.4rem] outline-none"
+                      className="h-[6rem] bg-transparent rounded-[20px] text-[1.6rem] placeholder:text-[#808181] text-white font-zcool border-[1px] border-[#C4110C] p-[0px_2.4rem] outline-none"
                       type="text"
                       placeholder="Maximum Quantity of Tokens"
                     />

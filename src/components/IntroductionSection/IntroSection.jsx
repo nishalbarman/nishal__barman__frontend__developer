@@ -3,7 +3,7 @@ import React from "react";
 
 function IntroSection() {
   return (
-    <div className="flex bg-black w-[100%] items-center justify-around  p-[0px_13%]">
+    <div className="flex bg-[#0B0A0B] w-[100%] items-center justify-around  p-[0px_13%]">
       <div className="flex flex-col justify-center items-center gap-10 basis-1/2 p-[3%_0]">
         <p className="font-shojumaru font-bold text-[4.4rem] text-samurai-red">
           Introduction
