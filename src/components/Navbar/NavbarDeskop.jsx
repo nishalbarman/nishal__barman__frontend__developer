@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import WalletConnectNavbar from "./WalletConnectNavbar";
 
 function NavbarDeskop() {
   return (
@@ -44,9 +45,7 @@ function NavbarDeskop() {
                   Coming Soon
                 </Link>
               </div>
-              <button className="bg-gradient-to-r from-[#ED0137] to-smurai-grade-orange rounded-[1.544rem] p-[10px_12px] text-[1.4rem] font-inter font-semibold text-white h-[45px] w-[145px] shadow-lg mt-[10px]">
-                Connect Wallet
-              </button>
+              <WalletConnectNavbar />
             </div>
           </div>
         </div>

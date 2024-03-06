@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import WalletConnectIDO from "./WalletConnectIDO";
 
 function IDOEventSection() {
   return (
@@ -68,9 +69,7 @@ function IDOEventSection() {
                 </div>
               </div>
 
-              <button className="bg-gradient-to-r from-smurai-grade-red to-smurai-grade-orange rounded-[16.21px] p-[10px_12px] text-[1.408rem] font-zcool mt-[3.5rem] h-[45px] w-[145px]">
-                Connect Wallet
-              </button>
+              <WalletConnectIDO />
               <p className="font-shojumaru text-[2.8rem] text-samurai-red text-center m-[3.5rem_0]">
                 Become an affiliate & Earn 7% as Commission!
               </p>
