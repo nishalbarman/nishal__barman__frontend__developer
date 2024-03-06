@@ -4,8 +4,8 @@ import React from "react";
 function IntroSection() {
   return (
     <div className="flex items-center justify-around p-[0_13%] max-[1285px]:flex-col-reverse max-[1285px]:p-[6rem_10px] bg-[#0B0A0B] w-[100%] ">
-      <div className="flex flex-col justify-center items-center gap-[2rem] basis-1/2 p-[3%_0]  max-[1285px]:p-0">
-        <p className="font-shojumaru font-bold text-[4.4rem] text-samurai-red">
+      <div className="flex flex-col justify-center items-start max-[1285px]:items-center gap-[2rem] basis-1/2 p-[3%_0] max-[1285px]:p-0">
+        <p className="font-shojumaru font-bold text-[4.4rem] text-samurai-red ">
           Introduction
         </p>
         <p className="text-white font-zcool text-[2.4rem] leading-[3.5rem] after:content-['read more...'] max-[1285px]:text-center">
@@ -15,7 +15,7 @@ function IntroSection() {
           join us to save the future! Our mission is to empower everyone to
           share wealth and succeed.
         </p>
-        <button className="font-zcool text-[2.003rem] bg-gradient-to-r from-smurai-grade-red to-smurai-grade-orange p-[15px_21px] text-white rounded-[21px]">
+        <button className="font-zcool text-[2.003rem] bg-gradient-to-r from-smurai-grade-red to-smurai-grade-orange p-[15px_21px] text-white rounded-[21px] selft-start mt-[1rem]">
           <span className="gap-[11px]">
             Documents
             <Image

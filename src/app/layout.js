@@ -14,7 +14,9 @@ export default function RootLayout({ children }) {
   const initialState = cookieToInitialState(config, headers().get("cookie"));
 
   return (
-    <html className="text-[10px] max-[1557px]:text-[8px]" lang="en">
+    <html
+      className="text-[10px] max-[1557px]:text-[8px] max-[375px]:text-[6px]"
+      lang="en">
       <WagmiContextProvider initialState={initialState}>
         <body>{children}</body>
       </WagmiContextProvider>

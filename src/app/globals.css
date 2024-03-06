@@ -45,4 +45,9 @@
     zoom: 0.7;
     -ms-zoom: 0.7;
   }
+
+  .zoomin {
+    zoom: 1;
+    -ms-zoom: 1;
+  }
 }

@@ -70,6 +70,7 @@ function IDOEventSection() {
               </div>
 
               <WalletConnectIDO />
+
               <p className="font-shojumaru text-[2.8rem] text-samurai-red text-center m-[3.5rem_0]">
                 Become an affiliate & Earn 7% as Commission!
               </p>

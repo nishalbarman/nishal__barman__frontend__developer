@@ -11,7 +11,7 @@ function WalletConnectNavbar() {
       onClick={() => {
         open();
       }}
-      className="bg-gradient-to-r from-[#ED0137] to-smurai-grade-orange rounded-[1.544rem] p-[10px_12px] text-[1.4rem] font-inter font-semibold text-white h-[45px] w-[145px] shadow-lg mt-[10px]">
+      className="bg-gradient-to-r from-[#ED0137] to-smurai-grade-orange rounded-[1.544rem] p-[10px_12px] text-[1.4rem] font-inter font-semibold text-white h-[45px] w-[145px] shadow-lg">
       Connect Wallet
     </button>
   );
