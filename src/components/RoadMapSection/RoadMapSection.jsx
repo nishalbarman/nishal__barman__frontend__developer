@@ -10,7 +10,7 @@ function RoadMapSection() {
           <h3 className="text-samurai-red font-shojumaru text-[4.092rem]">
             Road Map
           </h3>
-          <div className="flex items-center justify-center flex-wrap gap-[9rem] max-[1200px]:gap-[5rem] max-[500px]:gap-[5rem] w-[100%] h-[100%]">
+          <div className="flex items-center justify-center flex-wrap gap-[9rem] max-[1200px]:gap-[5rem] w-[100%] h-[100%]">
             <RoadMapItem
               imageUrl="/assets/roadmap/card_1.png"
               title={"Phase 1"}
