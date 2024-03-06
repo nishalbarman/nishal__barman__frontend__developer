@@ -3,7 +3,7 @@ import React from "react";
 
 function FooterSection() {
   return (
-    <div className="flex flex-col items-center justify-center gap-[3rem] p-[4rem] bg-gradient-to-t from-[#120000] to-[#020505]">
+    <div className="flex flex-col items-center justify-center gap-[3.6rem] p-[4rem] max-[600px]:p-[5rem_13px] bg-gradient-to-t from-[#120000] to-[#020505]">
       <Image width={200} height={163} src={"/assets/logo/logo2.png"} />
       <p
         style={{
@@ -15,7 +15,7 @@ function FooterSection() {
         className="font-inter text-[2.4rem] font-bold">
         SITEMAP
       </p>
-      <div className="flex gap-[5rem] items-center justify-center text-white text-[1.282rem] font-inter font-bold">
+      <div className="flex gap-[5rem] items-center justify-center text-white text-[12.82px] font-inter font-bold flex-wrap leading-[0.1rem]">
         <p className="cursor-pointer">Home</p>
         <p className="cursor-pointer">IDO</p>
         <p className="cursor-pointer">Tokenomics</p>
@@ -25,7 +25,7 @@ function FooterSection() {
         <p className="cursor-pointer">NFT</p>
         <p className="cursor-pointer">Games</p>
       </div>
-      <div className="flex items-center justify-center gap-[2rem] mt-[0.5%]">
+      <div className="flex items-center justify-center gap-[2rem] mt-[10px]">
         <Image
           src={"/assets/social/twitter.svg"}
           width={27.47}

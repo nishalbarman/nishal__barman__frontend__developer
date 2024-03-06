@@ -3,12 +3,12 @@ import React from "react";
 
 function IntroSection() {
   return (
-    <div className="flex bg-[#0B0A0B] w-[100%] items-center justify-around  p-[0px_13%]">
+    <div className="flex bg-[#0B0A0B] w-[100%] items-center justify-around p-[0px_13%] max-[600px]:p-[6rem_10px] max-[1285px]:flex-col-reverse ">
       <div className="flex flex-col justify-center items-center gap-10 basis-1/2 p-[3%_0]">
         <p className="font-shojumaru font-bold text-[4.4rem] text-samurai-red">
           Introduction
         </p>
-        <p className="text-white font-zcool text-[2.4rem] leading-[3.5rem] after:content-['read more...']">
+        <p className="text-white font-zcool text-[2.4rem] leading-[3.5rem] after:content-['read more...'] max-[1285px]:text-center">
           We've all been in the mud once, and now we've decided to fight it out.
           Pay tribute to those pioneers of WEB3 and the warriors who dedicated
           their love to the blockchain. Save the lucky ones alive, join us to

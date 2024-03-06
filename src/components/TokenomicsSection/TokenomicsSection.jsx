@@ -4,12 +4,12 @@ import React from "react";
 function TokenomicsSections() {
   return (
     <div className="bg-black w-[100%] h-fit flex flex-col items-center text-white">
-      <div className="bg-tokenomic-bg bg-no-repeat w-[100%] flex flex-col items-center pt-[6rem] pb-[6rem] p-[0px_13%]">
+      <div className="bg-tokenomic-bg bg-no-repeat w-[100%] flex flex-col items-center p-[6rem_13%] max-[600px]:p-[6rem_10px]">
         <div className="flex flex-col items-center w-[100%] gap-[7rem]">
           <h3 className="text-samurai-red font-shojumaru text-[4.092rem]">
             Tokenomics
           </h3>
-          <div className="flex items-start justify-center gap-[9rem] w-[100%] h-[100%]">
+          <div className="flex items-start justify-center max-[1285px]:items-center max-[1285px]:flex-col gap-[9rem] w-[100%] h-[100%]">
             <div className="basis-1/2 flex flex-col items-center">
               <div className="flex flex-col items-center justify-center">
                 <div className="bg-[#ED0137] flex justify-center items-center w-[24.4rem] h-[7rem] translate-y-[3.5rem] rounded-[2rem]">

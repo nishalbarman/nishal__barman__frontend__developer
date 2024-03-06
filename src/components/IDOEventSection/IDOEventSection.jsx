@@ -4,12 +4,12 @@ import React from "react";
 function IDOEventSection() {
   return (
     <div className="bg-black w-[100%] h-fit flex flex-col items-center text-white">
-      <div className="bg-some-shamurai w-[100%] flex flex-col items-center pt-[6rem] pb-[6rem] p-[0px_13%]">
+      <div className="bg-some-shamurai w-[100%] flex flex-col items-center pt-[6rem] pb-[6rem] p-[0px_13%] max-[600px]:p-[6rem_10px]">
         <div className="flex flex-col items-center w-[100%] gap-[7rem]">
-          <h3 className="text-samurai-red font-shojumaru text-[4.092rem]">
+          <h3 className="text-samurai-red font-shojumaru text-[4.092rem] text-center">
             Participate in our IDO Event!
           </h3>
-          <div className="flex items-start justify-center gap-[9rem] w-[100%]">
+          <div className="flex items-start justify-center gap-[9rem] w-[100%] max-[1285px]:flex-col max-[1285px]:items-center">
             <div className="basis-1/2 flex flex-col items-center">
               <p className="text-[2.092rem] font-zcool text-center leading-[3rem]">
                 During our IDO event, you will gain early access to our
