@@ -11,6 +11,18 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "shamurai-with-sword": "url(/assets/images/shamurari_with_sword.png)",
+        "some-shamurai": "url(/assets/images/bg-with-2-4-ninja.png)",
+      },
+      fontFamily: {
+        shojumaru: ["Shojumaru"],
+        zcool: ["ZCOOL_KuaiLe"],
+        "robo-mono": ["Roboto Mono"],
+      },
+      colors: {
+        "samurai-red": "#ED0137",
+        "smurai-grade-red": "#D51B46",
+        "smurai-grade-orange": "#EE6910",
       },
     },
   },
