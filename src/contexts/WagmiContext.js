@@ -16,7 +16,7 @@ const queryClient = new QueryClient();
 createWeb3Modal({
   wagmiConfig: config,
   projectId,
-  enableAnalytics: true, // Optional - defaults to your Cloud configuration
+  enableAnalytics: false, // Optional - defaults to your Cloud configuration
 });
 
 export default function WagmiContextProvider({ children, initialState }) {
