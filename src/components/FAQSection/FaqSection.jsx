@@ -36,7 +36,7 @@ function FaqSection() {
                     />
                   </summary>
                   <div className="bg-[#181818] text-white p-[2.5rem] rounded-[2rem] mt-[2.5rem]">
-                    <p className="text-[1.5rem] leading-[2rem] font-zcool">
+                    <p className="text-[1.6rem] leading-[2.3rem] font-zcool">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Laboriosam error ad, modi culpa beatae laborum aliquam
                       molestiae perferendis eveniet voluptatem nesciunt. Aliquam
@@ -58,7 +58,7 @@ function FaqSection() {
                     />
                   </summary>
                   <div className="bg-[#181818] text-white p-[2.5rem] rounded-[2rem] mt-[2.5rem]">
-                    <p className="text-[1.5rem] leading-[2rem] font-zcool">
+                    <p className="text-[1.6rem] leading-[2.3rem] font-zcool">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Laboriosam error ad, modi culpa beatae laborum aliquam
                       molestiae perferendis eveniet voluptatem nesciunt. Aliquam
@@ -80,7 +80,7 @@ function FaqSection() {
                     />
                   </summary>
                   <div className="bg-[#181818] text-white p-[2.5rem] rounded-[2rem] mt-[2.5rem]">
-                    <p className="text-[1.5rem] leading-[2rem] font-zcool">
+                    <p className="text-[1.6rem] leading-[2.3rem] font-zcool">
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                       Laboriosam error ad, modi culpa beatae laborum aliquam
                       molestiae perferendis eveniet voluptatem nesciunt. Aliquam
@@ -102,7 +102,7 @@ function FaqSection() {
                     />
                   </summary>
                   <div className="bg-[#181818] text-white p-[2.5rem] rounded-[2rem] mt-[2.5rem]">
-                    <p className="text-[1.5rem] leading-[2rem] font-zcool">
+                    <p className="text-[1.6rem] leading-[2.3rem] font-zcool">
                       After the IDO concludes, you can claim the tokens on our
                       official website.
                     </p>
