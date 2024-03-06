@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html
-      className="text-[10px] max-[1557px]:text-[8px] max-[375px]:text-[6px]"
+      className="text-[10px] max-[1557px]:text-[8px] max-[375px]:text-[7px]"
       lang="en">
       <WagmiContextProvider initialState={initialState}>
         <body>{children}</body>
