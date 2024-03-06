@@ -5,7 +5,7 @@ import WalletConnectIDO from "./WalletConnectIDO";
 function IDOEventSection() {
   return (
     <div className="bg-black w-[100%] h-fit flex flex-col items-center text-white">
-      <div className="bg-some-shamurai w-[100%] flex flex-col items-center p-[6px_13%] max-[600px]:p-[6rem_10px]">
+      <div className="bg-some-shamurai w-[100%] flex flex-col items-center p-[6rem_13%] max-[600px]:p-[6rem_10px]">
         <div className="flex flex-col items-center w-[100%] gap-[7rem]">
           <h3 className="text-samurai-red font-shojumaru text-[4.092rem] text-center">
             Participate in our IDO Event!
