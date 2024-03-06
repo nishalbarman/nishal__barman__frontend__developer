@@ -17,11 +17,12 @@ function FaqSection() {
                   height={503}
                   width={503}
                   src={"/assets/logo/logo.png"}
+                  alt="site logo"
                 />
               </div>
             </div>
 
-            <div className="basis-1/2 flex flex-col items-center h-[100%] gap-[5rem]">
+            <div className="basis-1/2 flex flex-col items-center h-[100%] gap-[5rem] w-[100%]">
               <h3 className="text-samurai-red font-shojumaru text-[4.092rem] max-[1285px]:flex-col max-[1285px]:hidden">
                 FAQ
               </h3>
@@ -30,12 +31,13 @@ function FaqSection() {
                   <summary className="flex justify-between items-center text-center p-[0px_2rem] cursor-pointer w-[100%] ">
                     <p>1</p>
                     <p className="text-left self-center">
-                      Why choose "Savior"?
+                      Why choose &quot;Savior&quot;?
                     </p>
                     <Image
                       src={"/assets/icons/down.svg"}
                       width={20}
                       height={20}
+                      alt="down arrow"
                     />
                   </summary>
                   <div className="bg-[#181818] text-white p-[2.5rem] rounded-[2rem] mt-[2.5rem]">
@@ -58,6 +60,7 @@ function FaqSection() {
                       src={"/assets/icons/down.svg"}
                       width={20}
                       height={20}
+                      alt="down arrow"
                     />
                   </summary>
                   <div className="bg-[#181818] text-white p-[2.5rem] rounded-[2rem] mt-[2.5rem] w-[100%] ">
@@ -80,6 +83,7 @@ function FaqSection() {
                       src={"/assets/icons/down.svg"}
                       width={20}
                       height={20}
+                      alt="down arrow"
                     />
                   </summary>
                   <div className="bg-[#181818] text-white p-[2.5rem] rounded-[2rem] mt-[2.5rem]">
@@ -102,6 +106,7 @@ function FaqSection() {
                       src={"/assets/icons/down.svg"}
                       width={20}
                       height={20}
+                      alt="down arrow"
                     />
                   </summary>
                   <div className="bg-[#181818] text-white p-[2.5rem] rounded-[2rem] mt-[2.5rem]">

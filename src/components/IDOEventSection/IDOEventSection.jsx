@@ -4,12 +4,12 @@ import React from "react";
 function IDOEventSection() {
   return (
     <div className="bg-black w-[100%] h-fit flex flex-col items-center text-white">
-      <div className="bg-some-shamurai w-[100%] flex flex-col items-center pt-[6rem] pb-[6rem] p-[0px_13%] max-[600px]:p-[6rem_10px]">
+      <div className="bg-some-shamurai w-[100%] flex flex-col items-center p-[6px_13%] max-[600px]:p-[6rem_10px]">
         <div className="flex flex-col items-center w-[100%] gap-[7rem]">
           <h3 className="text-samurai-red font-shojumaru text-[4.092rem] text-center">
             Participate in our IDO Event!
           </h3>
-          <div className="flex items-start justify-center gap-[9rem] w-[100%] max-[1285px]:flex-col max-[1285px]:items-center">
+          <div className="flex items-start justify-center gap-[9rem] w-[100%] max-[1285px]:flex-col max-[1285px]:items-center max-[600px]:gap-[3rem]">
             <div className="basis-1/2 flex flex-col items-center">
               <p className="text-[2.092rem] font-zcool text-center leading-[3rem]">
                 During our IDO event, you will gain early access to our
@@ -90,6 +90,7 @@ function IDOEventSection() {
                     src={"/assets/icons/copy.svg"}
                     width={25}
                     height={30}
+                    alt="copy"
                   />
                 </div>
               </div>
@@ -127,7 +128,7 @@ function IDOEventSection() {
                     </div>
                   </div>
                 </div>
-                <div className="flex flex-col gap-5 border-[#C4110C] border-[2px] items-center justify-center rounded-[20px] p-[8.5%]">
+                <div className="flex flex-col gap-5 border-[#C4110C] border-[2px] items-center justify-center rounded-[20px] p-[8rem] max-[600px]:p-[6rem]">
                   <p className="font-shojumaru text-[4.8rem] text-samurai-red">
                     PRESALE 1
                   </p>
@@ -143,7 +144,7 @@ function IDOEventSection() {
                   <p className="font-zcool text-[2.4rem]">
                     Raised - $34,56,56,764/$40,00,00,000
                   </p>
-                  <div className="flex flex-col gap-[1.9rem] w-[100%] mt-[2rem] p-[0px_8%]">
+                  <div className="flex flex-col gap-[1.9rem] w-[100%] mt-[2rem] ">
                     <input
                       className="h-[6rem] bg-transparent rounded-[20px] text-[1.6rem] placeholder:text-[#808181] text-white font-zcool border-[1px] border-[#C4110C] p-[0px_2.4rem] outline-none"
                       type="text"

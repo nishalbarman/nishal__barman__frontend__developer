@@ -4,7 +4,12 @@ import React from "react";
 function FooterSection() {
   return (
     <div className="flex flex-col items-center justify-center gap-[3.6rem] p-[4rem] max-[600px]:p-[5rem_13px] bg-gradient-to-t from-[#120000] to-[#020505]">
-      <Image width={200} height={163} src={"/assets/logo/logo2.png"} />
+      <Image
+        width={200}
+        height={163}
+        src={"/assets/logo/logo2.png"}
+        alt="site logo"
+      />
       <p
         style={{
           backgroundClip: "text",
@@ -30,9 +35,20 @@ function FooterSection() {
           src={"/assets/social/twitter.svg"}
           width={27.47}
           height={27.47}
+          alt="twitter"
         />
-        <Image src={"/assets/social/fly.svg"} width={27.47} height={27.47} />
-        <Image src={"/assets/social/mail.svg"} width={27.47} height={27.47} />
+        <Image
+          src={"/assets/social/fly.svg"}
+          width={27.47}
+          height={27.47}
+          alt="fly"
+        />
+        <Image
+          src={"/assets/social/mail.svg"}
+          width={27.47}
+          height={27.47}
+          alt="email"
+        />
       </div>
     </div>
   );

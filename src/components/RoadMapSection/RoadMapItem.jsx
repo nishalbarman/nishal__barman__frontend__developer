@@ -1,7 +1,6 @@
 import React from "react";
 
 function RoadMapItem({ title, description, imageUrl }) {
-  console.log(imageUrl);
   return (
     <div
       style={{
